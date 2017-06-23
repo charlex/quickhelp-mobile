@@ -6,7 +6,7 @@
     "start": "node node_modules/react-native/local-cli/cli.js start",
     "start-ios": "node node_modules/react-native/local-cli/cli.js run-ios",
     "lint": "node node_modules/.bin/eslint --ignore-pattern 'node_modules' app",
-    "test": "jest"
+    "test": "jest && npm run lint"
   },
   "dependencies": {
     "lodash": "^4.17.4",
@@ -15,6 +15,7 @@
     "react-native": "0.45.1",
     "react-redux": "^5.0.5",
     "redux": "^3.7.0",
+    "redux-logger": "^3.0.6",
     "redux-persist": "^4.8.1"
   },
   "devDependencies": {

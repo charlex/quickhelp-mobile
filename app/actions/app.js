@@ -1,6 +1,6 @@
 
 
-function newQuestion(message) { // eslint-disable-line import/prefer-default-export
+function newQuestion(message) {
   return {
     type: 'NEW_QUESTION',
     message,
