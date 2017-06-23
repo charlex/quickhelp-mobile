@@ -11,6 +11,13 @@ git clone git@diggit.trbprodcloud.com:quickpost/quickhelp-mobile.git
 cd quickhelp-mobile
 ```
 
+Install dependencies:
+
+```
+npm install
+```
+
+
 Build and run the iOS app on the simulator:
 
 ```
